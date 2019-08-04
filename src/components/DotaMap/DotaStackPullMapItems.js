@@ -15,6 +15,8 @@ import { DotaMapItemArrow } from ".";
 import { camps } from "../../configs";
 import { Time } from "../Timings";
 
+import styles from "./DotaStackPullMapItems.module.css";
+
 const DotaStackPullMapItems = ({ filter: dotaMapFilter }) => (
   <>
     {map(
@@ -28,7 +30,8 @@ const DotaStackPullMapItems = ({ filter: dotaMapFilter }) => (
                     coordinate={coordinate}
                     label={
                       <>
-                        Pull: <Time format=":ss" time={pull.times[0]} />
+                        <span className={styles.actionLabel}>Pull: </span>
+                        <Time format=":ss" time={pull.times[0]} />
                         /
                         <Time format=":ss" time={pull.times[1]} />
                       </>
@@ -47,7 +50,8 @@ const DotaStackPullMapItems = ({ filter: dotaMapFilter }) => (
                     coordinate={coordinate}
                     label={
                       <>
-                        Stack: <Time time={stack.time} />
+                        <span className={styles.actionLabel}>Stack: </span>
+                        <Time time={stack.time} />
                       </>
                     }
                     labelPosition="top"

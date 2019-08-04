@@ -1,0 +1,8 @@
+.actionLabel {
+}
+
+@media (max-width: 600px) {
+  .actionLabel {
+    display: none;
+  }
+}
