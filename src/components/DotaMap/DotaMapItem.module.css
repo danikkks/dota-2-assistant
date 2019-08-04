@@ -1,0 +1,31 @@
+.dotaMapItem {
+  position: absolute;
+}
+
+.contentWrapper {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+}
+
+.labelTop {
+  top: -100%;
+  left: 0;
+}
+
+.labelBottom {
+  top: 100%;
+  left: 0;
+}
+
+.labelLeft {
+  left: -100%;
+  top: 0;
+}
+
+.labelRight {
+  left: 100%;
+  top: 0;
+}

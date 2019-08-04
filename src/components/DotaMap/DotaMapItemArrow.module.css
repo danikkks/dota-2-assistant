@@ -1,0 +1,7 @@
+.arrow {
+  font-size: 2em;
+  transform-origin: bottom center;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+}

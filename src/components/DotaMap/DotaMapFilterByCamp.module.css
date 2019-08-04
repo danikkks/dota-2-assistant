@@ -1,0 +1,15 @@
+.dotaMapFilterByCamp {
+  list-style: none;
+  display: inline-block;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.point {
+  margin-right: 4px;
+}

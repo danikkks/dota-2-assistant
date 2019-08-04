@@ -1,0 +1,12 @@
+.dotaMap {
+  width: 100%;
+  position: relative;
+}
+
+.mapImg {
+  width: 100%;
+}
+
+.mapItems {
+  list-style: none;
+}
