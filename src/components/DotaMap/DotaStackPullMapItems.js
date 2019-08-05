@@ -51,7 +51,7 @@ const DotaStackPullMapItems = ({ filter: dotaMapFilter }) => (
                     label={
                       <>
                         <span className={styles.actionLabel}>Stack: </span>
-                        <Time time={stack.time} />
+                        <Time format=":ss" time={stack.time} />
                       </>
                     }
                     labelPosition="top"

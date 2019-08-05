@@ -47,7 +47,6 @@ main {
   .tippy-tooltip[data-animatefill],
   .tippy-tooltip [x-circle] {
     font-size: 0.4em;
-    font-weight: normal;
   }
 }
 

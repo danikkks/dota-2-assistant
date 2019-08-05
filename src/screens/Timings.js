@@ -1,6 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Timings } from "../components/Timings";
+import { withNoSleep } from "../HOCs";
 
 class TimingsScreen extends React.Component {
   render() {
@@ -8,4 +8,4 @@ class TimingsScreen extends React.Component {
   }
 }
 
-export default TimingsScreen;
+export default withNoSleep()(TimingsScreen);
